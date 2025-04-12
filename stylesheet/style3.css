@@ -1,0 +1,62 @@
+body {
+    background: url("https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg") no-repeat center
+      center fixed;
+    background-size: cover;
+    font-family: "Gabarito", sans-serif;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px
+  }
+  
+  .logo {
+    text-align: end;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  /* Caixa principal do jogo */
+  .conteudo-jogo {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 5px #ff1b7b;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .conteudo-jogo:hover {
+    background: rgba(0, 0, 0);
+    box-shadow: 0 0 5px #ff1b7b;
+  }
+  
+  /* Títulos e textos */
+  h2,
+  p {
+    color: white;
+  }
+  
+  h4 {
+    color:white;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background: #ff1b7b;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+  }
+
+  .next {
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
